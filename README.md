@@ -1,5 +1,5 @@
 # CI-BCNN
-This is the official pytorch implementation for paper: *Learning Channel-wise Interactions for Binary Convolutional Neural Networks*, which is accepted by CVPR2019. The code contains training and testing stages on two binarized object detectors, SSD300 and Faster R-CNN on PASCAL VOC and Microsoft COCO 2014.
+This is the pytorch implementation for paper: *Learning Channel-wise Interactions for Binary Convolutional Neural Networks*.
 
 # Quick Start
 ## Prerequisites
@@ -10,10 +10,10 @@ This is the official pytorch implementation for paper: *Learning Channel-wise In
 
 
 ## Dataset & Backbone
-Our demo code is for the experiment on CIFAR-10 dataset, with the backbone of Resnet-20.
+Our demo code is for the experiment on CIFAR-10 with the backbone of Resnet-20.
 
 ## Training and Testing
-Assume you've finished the installation of required packages, you can start using the code easily.
+With all required packages, you can start using the code in the following way.
 
 To train from scratch, run:
 ```shell
